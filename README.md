@@ -11,7 +11,8 @@ This app is designed to teach users sketching through an immersive Augmented Rea
 
 ## How it works
 ![App Demo](demo.gif)
-The app makes a request to the server which respondes with an array of sketches with their phases. The app lists these sketches and listen for a tap event by the user. When tapped, a new page is opened with an array of phases corresponding to the selected sketch. The app takes a quick scan of the table, then after pressing start it uses AR technology to overlay the step-by-step phase of the sketch on the scanned surface.
+
+The app makes a request to the server which responds with an array of sketches with their phases. The app lists these sketches and listens for a tap event by the user. When tapped, a new page is opened with an array of phases corresponding to the selected sketch. The app takes a quick scan of the table, then after pressing start, it uses AR technology to overlay the step-by-step phase of the sketch on the scanned surface.
 
 
 ## Demo Instructions
@@ -25,13 +26,13 @@ To run locally
 - Django: Backend server for managing sketch data.
 
 ## Demo Instructions
-Before attempting to run the app on your local machine, make sure these packages are installed.
+Before you try to run the app on your local machine, please make sure these packages are installed.
 
 1. Latest version of [Django](https://www.djangoproject.com/). Install by running:
 ```bash
 pip3 install django
 ```
-2. [Flutter](https://flutter.dev/) (atleast version 3.0)
+2. [Flutter](https://flutter.dev/) (at least version 3.0)
 3. [Python 3](https://www.python.org/)
 
 
